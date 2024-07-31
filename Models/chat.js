@@ -1,6 +1,6 @@
 const mysql = require('mysql')
 
-const dbconfig = require('./Models/chatInfo_config.json');
+const dbconfig = require('./Models/DB_config.json');
 
 const pool = mysql.createPool({
     connectionLimit : 10,
